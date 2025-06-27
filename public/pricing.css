@@ -1,0 +1,242 @@
+/* Pricing Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 90%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back-button {
+    background-color: #10a37f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0e906f;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #a8e6cf;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    color: #10a37f;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    background-color: #FFD700;
+    color: #333;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.subscribe-button:hover {
+    background-color: #FFC107;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card ul li {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 1.05em;
+    display: flex;
+    align-items: center;
+}
+
+.card ul li .check {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.card ul li .cross {
+    color: #FF6347;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.professional-offer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.professional-offer p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    background-color: #10a37f;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.learn-more-button:hover {
+    background-color: #0e906f;
+}
+
+
+.pricing-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.pricing-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-button:hover {
+    background-color: #0e906f;
+}
+
+.pricing-table-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.pricing-table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table-section th,
+.pricing-table-section td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.pricing-table-section thead th {
+    background-color: #0e906f;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.pricing-table-section tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pricing-table-section tbody td {
+    color: #555;
+}
+
+.contact-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.contact-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.contact-button {
+    background-color: #FFD700;
+    color: #333;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #FFC107;
+}

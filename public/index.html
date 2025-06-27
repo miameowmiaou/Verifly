@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyser - Verifly</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="Logo.png" alt="Verifly Logo" class="logo">
+        </div>
+        <div class="pricing-button-container">
+            <a href="pricing.html" class="pricing-button">Nos Offres</a>
+        </div>
+        <div class="input-container">
+            <input type="text" id="articleUrl" placeholder="Entrer l'URL d'un article...">
+            <button onclick="analyzeArticle()">Analyser</button>
+        </div>
+        <div id="results" class="results-container hidden">
+            <div class="reliability-score">
+                <h2>Score de fiabilité</h2>
+                <div class="score-circle">
+                    <span id="score">-</span>
+                </div>
+            </div>
+            <div class="similar-articles">
+                <h2>Articles similaires</h2>
+                <div id="similarArticlesList"></div>
+            </div>
+        </div>
+        <div id="loading" class="loading hidden">
+            Analyse de l'article...
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
